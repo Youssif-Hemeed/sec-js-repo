@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,600;0,700;0,800;1,300&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/all.min.css">    
+<title>Document</title>
+</head>
+<body>
+    
+    <section class="my-5 pt-5">
+<div class="container ">
+<div class="header   text-center mp-5 "> <h1 class="position-relative mainH1" >
+    Bookmarker</h1></div>
+
+<div class="bookForm  mt-5 py-4 px-3">
+<h3 class="text-center mb-5 fw-semibold" >
+    <i class="fa-solid fa-bookmark fw-lighter"></i>
+    
+    Bookmark your favorite sites
+    <i class="fa-solid fa-bookmark fw-lighter"></i>
+
+</h3>
+
+    <label for="site" class=" mt-45 mb-2"> 
+        <i class="fa-solid fa-book-bookmark pe-2"></i>
+        Site Name</label>
+<input  class="form-control" id="siteName" type="text" placeholder="Bookmark Name">
+<label for="url" class=" mt-5 mb-2">
+    <i class="fa-solid fa-link pe-2"></i>
+    Site Url</label>
+<input class="form-control "  id="urlName" type="url" placeholder="Website URL">
+<div class="btnContainer text-center mb-3"><button id="btnSubmit" class="btn btn-danger mt-5 px-4 py-2">submit</button>
+</div>
+</div>
+<table class="table text-center table-hover bg-light my-5">
+    <thead>
+        <th>Index</th>
+        <th>website Name</th>
+        <th>Visit</th>
+        <th>Delete</th>
+
+    </thead>
+    <tbody id="show">
+      
+    </tbody>
+</table>
+</div>
+    </section>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
